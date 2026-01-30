@@ -34,6 +34,7 @@ Built with **Streamlit**, **LangChain**, and **uv**.
 ## 🗺️ Roadmap
 
 * [x] Simple RAG (Vector Search)
+* [x] Hybrid RAG (Vector Search + Keyword Search)
 * [ ] Multi-Modal RAG (Image/Graph support)
 * [ ] Agentic RAG (LangGraph with Web Search)
 * [ ] Evaluation Metrics (Ragas integration)

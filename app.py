@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import shutil
 from src.bots.simple_rag import SimpleRAGBot
+from src.bots.hybrid_rag import HybridRAGBot
 
 PAGE_TITLE = "Modular RAG Lab"
 TEMP_DIR = "temp_data"
@@ -9,6 +10,7 @@ TEMP_DIR = "temp_data"
 # --- CONFIGURATION MAPS ---
 AVAILABLE_BOTS = {
     SimpleRAGBot.get_name(): SimpleRAGBot,
+    HybridRAGBot.get_name(): HybridRAGBot,
 }
 
 # The Map: Provider -> List of Models
